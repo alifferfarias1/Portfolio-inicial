@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding: 30px;
+    position: absolute;
+    background-color: hsl(240, 27%, 6%);
+    width: 100vw;
+    height: 43vh;
+}
+
+nav h1 {
+    display: inline-block;
+    /* Alteração para inline-block */
+    width: 280px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    font-size: 2.5em;
+    color: hsl(232, 67%, 71%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav div#foto {
+    background-image: linear-gradient(to right, rgb(79, 69, 131), rgb(151, 143, 191));
+    margin-right: 120px;
+    width: 195px;
+    height: 165px;
+    float: right;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+nav div.texto {
+    width: 170px;
+    display: block;
+    padding: 3px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+nav h3 {
+    width: 150px;
+    display: inline-block;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    nav h3 {
+        font-size: 15px;
+        /* Ajuste o tamanho da fonte para telas menores conforme necessário */
+    }
+
+    nav h1 {
+        font-size: 2em;
+        /* Ajuste o tamanho da fonte para telas menores conforme necessário */
+    }
+}
+
+nav img {
+
+    margin-right: 6px;
+    margin-top: 7px;
+    float: right;
+    width: 180px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+
+main{
+    height: 100vh;
+    background-color: aqua;
+}
