@@ -110,8 +110,7 @@ main{
     border-radius: 15px 5px 0px 0px;
     color: black;
     background-color: white;
-    min-width: 90%;
-    max-width: 91%;
+    width: 92%;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
     border-radius: 0px 0px 10px 10px;
@@ -129,7 +128,7 @@ main{
 
 main h1{
     margin-top: 36vh;
-    padding: 14px;
+    padding-top: 26px;
     text-indent: 1.5em;
 }
 
@@ -165,14 +164,15 @@ main a:visited{
 }
 
 iframe{
-    display: block;
-    margin: auto;
-    
-    border-radius: 5px;
-    width: 98vw;
-    height: 1000px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 104%;
+    min-height: 880px;
+    max-height: 1200px;
     transform: scale(0.9); /* Ajuste o valor conforme necessário */
     transform-origin: top left;
+    box-shadow: 5px 5px 11px black;
+    border: 1px solid rgba(0, 0, 0, 0.64);
   
 }
 
