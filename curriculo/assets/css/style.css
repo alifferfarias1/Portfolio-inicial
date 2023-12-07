@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    padding: 30px;
+    padding: 28px;
     position: absolute;
     background-color: hsl(240, 27%, 6%);
     width: 100vw;
@@ -25,7 +25,6 @@ header {
 }
 
 header h1 {
-    padding-top: 15px;
     display: inline-block;
     width: 280px;
     font-size: 2.5em;
@@ -89,24 +88,6 @@ header ul > li{
 
 }
 
-.menuNav li{
-    display: inline-block;
-}
-.menuNav a{
-    margin: -4px -4px -4px 105px;
-    color: white;
-    position: absolute;
-    text-decoration: none;
-    
-}
-.menuNav a:visited{
-    color: white;
-}
-.menuNav a:hover{
-    color: hsl(232, 67%, 71%);
-    text-decoration: dashed;
-}
-
 main{
     border-radius: 15px 5px 0px 0px;
     color: black;
@@ -128,8 +109,8 @@ main{
 }
 
 main h1{
-    margin-top: 36vh;
-    padding-top: 26px;
+    margin-top: 30vh;
+    padding-top: 40px;
     text-indent: 1.5em;
 }
 
@@ -173,12 +154,12 @@ iframe{
     max-height: 1200px;
     transform: scale(0.9); /* Ajuste o valor conforme necessário */
     transform-origin: top left;
-    box-shadow: 5px 5px 11px black;
+    box-shadow: 3px 3px 11px black;
     border: 1px solid rgba(0, 0, 0, 0.64);
   
 }
 
 .paddingb70{
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
