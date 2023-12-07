@@ -94,6 +94,7 @@ header ul > li{
 }
 .menuNav a{
     margin: -4px -4px -4px 105px;
+    color: white;
     position: absolute;
     text-decoration: none;
     
