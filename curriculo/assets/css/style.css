@@ -147,17 +147,23 @@ main a:visited{
 }
 
 iframe{
-    margin-left: 10px;
+    margin-left: 33px;
     border-radius: 10px;
     width: 104%;
-    min-height: 880px;
-    max-height: 1200px;
+    height: 860px;
+    
+   
     transform: scale(0.9); /* Ajuste o valor conforme necessário */
     transform-origin: top left;
     box-shadow: 3px 3px 11px black;
     border: 1px solid rgba(0, 0, 0, 0.64);
   
 }
+@media screen and (max-width: 570px) {
+    iframe {
+       margin-left: 8px;
+    }
+   }
 
 .paddingb70{
     padding-bottom: 50px;
