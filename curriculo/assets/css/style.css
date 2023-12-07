@@ -129,28 +129,38 @@ main h2{
 
 main ul > li{
     display: inline-block;
+
+    color: black;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 10px 10px 30px;
     background-image: linear-gradient(to right, hsl(232, 81%, 71%), rgb(238, 223, 223) );
     border-radius: 5px;
 
 }
 main ul > li:hover{
     transform: scale(1.09);
-    color: #6152aa;
+}
+main ul > li > a:hover{
+    
+    color: hsl(234, 65%, 28%);
+    text-decoration: underline;
+
+    
 }
 main a{
     text-decoration: none;
+    font-size: 1.1em;
 }
 main a:visited{
-    color: hsl(233, 89%, 4%);
+    color: hsl(233, 87%, 6%);
 }
 
 iframe{
     margin-left: 33px;
     border-radius: 10px;
     width: 104%;
-    height: 860px;
+    height: 110vh;
+   
     
    
     transform: scale(0.9); /* Ajuste o valor conforme necessário */
@@ -162,6 +172,8 @@ iframe{
 @media screen and (max-width: 570px) {
     iframe {
        margin-left: 8px;
+       height: 155vh;
+
     }
    }
 
